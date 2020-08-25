@@ -22,3 +22,18 @@
 .center{
   text-align: center;
 }
+
+@media screen and (max-width:768px){
+  .cardList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
+@media screen and (max-width:450px){
+  .cardList{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+}
