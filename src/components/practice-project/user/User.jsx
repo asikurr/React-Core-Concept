@@ -20,7 +20,10 @@ const User = () => {
                 <UserCart userCart={userCart}/>
             </div>
             {
-                user.map(user => <UserDetails addUserHandler={addUserHandler} key={user.id} user={user}/> )
+                user.map(user => <UserDetails 
+                addUserHandler={addUserHandler} 
+                key={user.id} 
+                user={user}/> )
             }
         </div>
     );

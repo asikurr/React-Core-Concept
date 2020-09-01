@@ -3,6 +3,9 @@
   color: white;
   
 }
+a{
+  color: white
+}
 
 .card{
   display: flex;
@@ -10,7 +13,6 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
-  background-color: #423e3e;
 
 }
 
