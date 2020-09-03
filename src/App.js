@@ -14,6 +14,7 @@ import {
 import NotFound from './components/react-router/notfound/NotFound';
 import FriendDetails from './components/react-router/friendDetails/FriendDetails';
 import NavBar from './components/NavBar/NavBar';
+import StateIndex from './components/statePractice/StateIndex';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
       <NavBar/>
       
         <Switch>
+        <Route path='/state'>
+             <StateIndex/>
+          </Route>
         <Route path='/country'>
              <CountryApi/>
           </Route>

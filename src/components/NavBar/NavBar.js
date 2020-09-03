@@ -15,6 +15,10 @@ const NavBar = () => {
                 <li>
                     <Link to={'/user'}> User </Link>
                 </li>
+
+                <li>
+                    <Link to={'/state'}> Context Api </Link>
+                </li>
                
             </ul>
         </div>
