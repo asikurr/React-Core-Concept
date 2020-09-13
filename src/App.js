@@ -15,6 +15,7 @@ import NotFound from './components/react-router/notfound/NotFound';
 import FriendDetails from './components/react-router/friendDetails/FriendDetails';
 import NavBar from './components/NavBar/NavBar';
 import StateIndex from './components/statePractice/StateIndex';
+import PatientsManagement from './components/PatientsMaagement/PatientsManagement';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       <NavBar/>
       
         <Switch>
+        <Route path='/reducer'>
+             <PatientsManagement/>
+          </Route>
         <Route path='/state'>
              <StateIndex/>
           </Route>

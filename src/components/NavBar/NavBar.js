@@ -19,6 +19,10 @@ const NavBar = () => {
                 <li>
                     <Link to={'/state'}> Context Api </Link>
                 </li>
+
+                <li>
+                    <Link to={'/reducer'}> Use reducer </Link>
+                </li>
                
             </ul>
         </div>
